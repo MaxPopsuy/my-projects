@@ -1,4 +1,4 @@
 # python-projects
 Python Projects
 
-All my projects are here :)
+All my python projects are here :)
