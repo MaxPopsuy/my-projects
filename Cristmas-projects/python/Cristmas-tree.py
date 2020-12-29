@@ -17,6 +17,4 @@ for i in range(height, 0, -1):
 
 print("Merry Xmass!") # MERRY XMASS!!! xD
 
-
-
-
+input('Press ENTER to exit') 
