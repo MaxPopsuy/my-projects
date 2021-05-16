@@ -1,0 +1,17 @@
+.card__img{
+    width: 140px;
+    height: 300px;
+}
+
+.cards__wrapper{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: inline-block;
+    cursor: pointer;
+}
