@@ -1,30 +1,29 @@
-const images = [{
+export default [{
     card: "Xiao",
     src: "../images/Character_Xiao_Card",
-    id: 00
+    id: 01
 }, {
     card: "Kaeya",
     src: "../images/Character_Kaeya_Card",
-    id: 01
+    id: 2
 },
 {
     card: "Fishl",
     src: "../images/Character_Fishl_Card",
-    id: 02
+    id: 3
 },
 {
     card: "Klee",
     src: "../images/Character_Klee_Card",
-    id: 03
+    id: 4
 },
 {
     card: "Tartaglia",
     src: "../images/Character_Tartaglia_Card",
-    id: 04
+    id: 5
 },
 {
     card: "Zhongli",
     src: "../images/Character_Zhongli_Card",
-    id: 05
+    id: 6
 }];
-export default images;

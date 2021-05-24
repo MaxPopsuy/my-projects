@@ -1,4 +1,5 @@
 import images from "./imgs.js";
+// import users from "./users.js";
 console.log(images);
 // const imgs = document.querySelectorAll(".card");
 
