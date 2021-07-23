@@ -1,0 +1,15 @@
+$white: #FFE3FE;
+$main-purple: #440A67;
+$second-purple: #93329E;
+$grey: #B4AEE8;
+$dark-grey: #afb1b8;
+$text-color: #212121;
+$footer-color: #2f303a;
+
+%icon-size {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

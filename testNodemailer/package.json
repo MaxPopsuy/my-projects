@@ -1,0 +1,14 @@
+{
+  "name": "testnodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "H4cK3Rm4N",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.6.2"
+  }
+}

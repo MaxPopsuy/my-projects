@@ -1,0 +1,185 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 100%;
+	position: sticky;
+	background-color: $grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 2;
+	&__logo {
+		color: $main-purple;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		&-link {
+			&--span {
+				color: $white;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.header__menu {
+	display: flex;
+}
+.header__menu-list {
+	width: 450px;
+	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&-link {
+		width: 100%;
+		color: $second-purple;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		font-size: 20px;
+		transition: 500ms all;
+	}
+	&-link:hover {
+		color: $main-purple;
+	}
+	&-link::after {
+		background-color: $second-purple;
+		color: $second-purple;
+		display: block;
+		content: "";
+		height: 2px;
+		width: 0%;
+		transition: 600ms ease-in-out;
+	}
+	&-link:hover::after {
+		background-color: $main-purple;
+		color: $main-purple;
+		width: 100%;
+	}
+}
+
+.welcome {
+	margin: 0 auto;
+	background-color: $footer-color;
+	width: 100%;
+	padding: 30px 0;
+	&__about {
+		color: $grey;
+		font-weight: 500;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+	}
+}
+
+.about {
+	margin: 0 auto;
+	width: 100%;
+	background-color: $text-color;
+	padding: 20px 0;
+	&__title {
+		text-align: center;
+		color: $second-purple;
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Raleway', sans-serif;
+	}
+	&__description {
+		margin-top: 15px;
+		text-align: center;
+		color: $white;
+		font-size: 20px;
+		font-weight: 700;
+		font-family: 'Raleway', sans-serif;
+		line-height: 35px;
+		letter-spacing: 3px;
+	}
+}
+
+.about__menu {
+	min-width: 250px;
+	max-width: 400px;
+	margin: 0 auto;
+	&-list {
+		margin: 0 auto;
+		&-item {
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			font-weight: 600;
+			color: $white;
+		}
+	}
+}
+
+.about__screenshots-wrapper {
+	background-color: $text-color;
+	width: 1200px;
+	margin: 35px auto 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+		"a a a a b b b b"
+		"a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d"
+    "c c c c d d d d"
+    "c c c c d d d d";
+  // align-items: center;
+}
+.items {
+	width: 600px;
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+}
+.item4 {
+  grid-area: d;
+}
+
+.download {
+	margin: 0 auto;
+	&__link {
+		width: 200px;
+		margin: 40px auto 0 auto;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
+		padding: 20px 60px;
+		color: $dark-grey;
+		border: 2px solid $second-purple;
+		border-radius: 8px;
+		background-color: $second-purple;
+		transition: 400ms ease-in;
+	}
+	&__link:hover {
+		border: 2px solid $main-purple;
+		background-color: $main-purple;
+		color: $white;
+	}
+}
+
+.video {
+	width: 711px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
